@@ -17,7 +17,7 @@ console.log(ProductData)
         <Header />
         <PhotoBankSidebar />
         <div className="photo-bank-container">
-          <h1>PHOTO BANK</h1>
+          <h1>CPF Photo Bank</h1>
         </div>
       </Suspense>
     </>
