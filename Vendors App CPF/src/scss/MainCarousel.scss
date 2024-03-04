@@ -1,0 +1,98 @@
+.main-carousel-container{
+  background-image: url("../assets/Charcoal-1-1024x1024.webp");
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.swiper {
+  width: 640px;
+  height: 720px;
+}
+.swiper-wrapper{
+  margin: 80px 0;
+
+}
+.swiper-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  a{
+    color: white;
+    text-decoration: none;
+    z-index: 2;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+.swiper-slide:nth-child(1){
+  background-image: url('../assets/D54\ -\ Light\ Oak\ 1.jpg');
+  background-position: bottom
+}
+.swiper-slide:nth-child(1)::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.192);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide:nth-child(2){
+  background-image: url('../assets/Mockup.jpg');
+  background-position: bottom;
+}
+.swiper-slide:nth-child(2)::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.829);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide:nth-child(3){
+  background-image: url('../assets/Mockup1.jpg');
+  background-position: bottom;
+}
+.swiper-slide:nth-child(3)::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.336);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+
+//MEDIA QUERIES
+
+@media (max-width: 940px){
+  .swiper{
+    height: 390px;
+    width: 270px;
+  }
+}
