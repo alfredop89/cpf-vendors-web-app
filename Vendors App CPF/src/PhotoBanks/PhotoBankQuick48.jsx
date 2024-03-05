@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
-import Deco54Carousel from "../RoomScenesCarousels/Deco54Carousel";
-import Deco54CarouselInstallation from "../RoomScenesCarousels/Deco54CarouselInstallation"
+import Quick48Carousel from "../RoomScenesCarousels/Quick48Carousel";
+import Quick48CarouselInstallation from "../RoomScenesCarousels/Quick48CarouselInstallation";
 
 
 function PhotoBankDeco54() {
@@ -11,10 +11,10 @@ function PhotoBankDeco54() {
       <Header />
       <PhotoBankSidebar />
       <div className="photobank-container">
-        <h2>Room Scenes - Deco54</h2>
-        <Deco54Carousel />
+        <h2>Room Scenes - Quick48+</h2>
+        <Quick48Carousel />
         <h2>Installation</h2>
-        <Deco54CarouselInstallation />
+        <Quick48CarouselInstallation />
       </div>
     </>
   );

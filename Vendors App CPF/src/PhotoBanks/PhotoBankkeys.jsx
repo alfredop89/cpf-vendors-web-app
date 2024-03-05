@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
 import KeysCarousel from "../RoomScenesCarousels/KeysCarousel";
 import KeysCarouselInstallation from "../RoomScenesCarousels/KeysCarouselInstallation"
-import Footer from "../components/Footer"
+
 
 function PhotoBankDeco54() {
   return (
@@ -16,7 +16,6 @@ function PhotoBankDeco54() {
         <h2>Installation</h2>
         <KeysCarouselInstallation />
       </div>
-      <Footer />
     </>
   );
 }

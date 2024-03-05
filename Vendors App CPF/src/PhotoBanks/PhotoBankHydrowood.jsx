@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import PhotoBankSidebar from "../Sidebars/PhotoBankSidebar";
-import Deco54Carousel from "../RoomScenesCarousels/Deco54Carousel";
-import Deco54CarouselInstallation from "../RoomScenesCarousels/Deco54CarouselInstallation"
+import HydrowoodCarousel from "../RoomScenesCarousels/HydrowoodCarousel"
 
 
 function PhotoBankDeco54() {
@@ -11,10 +10,8 @@ function PhotoBankDeco54() {
       <Header />
       <PhotoBankSidebar />
       <div className="photobank-container">
-        <h2>Room Scenes - Deco54</h2>
-        <Deco54Carousel />
-        <h2>Installation</h2>
-        <Deco54CarouselInstallation />
+        <h2>Room Scenes - Hydrowood</h2>
+        <HydrowoodCarousel />
       </div>
     </>
   );

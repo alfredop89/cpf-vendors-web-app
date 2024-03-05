@@ -22,6 +22,7 @@ export default function App() {
         transition={{ duration: 0.5 }}
       >
         <Swiper
+        className = "MySwiper"
           effect={"coverflow"}
           grabCursor={false}
           modules={[EffectCoverflow]}
