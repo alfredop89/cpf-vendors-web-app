@@ -44,7 +44,7 @@ const RoomSceneDeco54 = () => {
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/3-SUNNY-OAK-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -52,7 +52,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-10.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/9-COASTAL-GRAY-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -60,7 +60,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-NATURAL-DECO-D54-M-2048x2048.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/2-SUNNY-OAK-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -68,7 +68,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-CAPPUCCINO-OAK-D54-M.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/1-SUNNY-OAK-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -76,7 +76,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/14-CAPPUCCINO-OAK-D54-M.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-SAND-DUNES-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -84,7 +84,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/19-CAPPUCCINO-OAK-D54-M.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/6-COASTAL-GRAY-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -92,7 +92,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-3.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/18-SAND-DUNES-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -100,7 +100,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-6.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/10-SAND-DUNES-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -108,7 +108,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/15-COASTAL-GRAY-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -116,7 +116,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-10.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/12-COASTAL-GRAY-KEYS-M.jpg"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />

@@ -6,6 +6,8 @@ import TechnnicalData from './Pages/TechnnicalData'
 import Merch from './Pages/Merch'
 import PhotoBank from './Pages/PhotoBank'
 import PhotoBankDeco54 from './PhotoBanks/PhotoBankDeco54'
+import PhotoBankSpiritXl from './PhotoBanks/PhotoBankSpiritXl'
+import PhotoBankkeys from './PhotoBanks/PhotoBankkeys'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
       //PHOTO BANKS
       
       <Route path='/photo-bank/deco-54' element={<PhotoBankDeco54 />} />
+      <Route path='/photo-bank/spirit-xl' element={<PhotoBankSpiritXl />} />
+      <Route path='/photo-bank/keys' element={<PhotoBankkeys />} />
     </Routes>
   </BrowserRouter>
   )

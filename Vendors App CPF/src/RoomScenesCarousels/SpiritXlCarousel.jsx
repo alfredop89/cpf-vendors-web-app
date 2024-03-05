@@ -44,7 +44,7 @@ const RoomSceneDeco54 = () => {
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BALANCED-OAK-ROOM-SCENE-1200x1200-1.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -52,7 +52,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-10.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BLASS-GRAY-ROOM-SCENE-jpg-2048x2048.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -60,7 +60,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/7-NATURAL-DECO-D54-M-2048x2048.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BRUT-OAK-ROOM-SCENE-jpg-2048x2048.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -68,7 +68,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/8-CAPPUCCINO-OAK-D54-M.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/CERISE-ROOM-SCENE-copia-jpg-2048x2048.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -76,7 +76,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/14-CAPPUCCINO-OAK-D54-M.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/COFFEE-CREAM-ROOM-SCENE-jpg-2048x2048.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -84,7 +84,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/19-CAPPUCCINO-OAK-D54-M.jpg"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SUNSET-WALNUT-ROOM-SCENE-1200x1200-1.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -92,7 +92,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-3.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-CREME-ROOM-SCENE-jpg-2048x2048.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -100,23 +100,7 @@ const RoomSceneDeco54 = () => {
 
             <div className="embla__slide">
               <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-6.png"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png"
-                alt=""
-                onClick={() => SetOpenModal(!openModal)}
-              />
-            </div>
-
-            <div className="embla__slide">
-              <img
-                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-10.png"
+                src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SLATE-ROOM-SCENE-jpg-2048x2048.webp"
                 alt=""
                 onClick={() => SetOpenModal(!openModal)}
               />
@@ -165,25 +149,28 @@ const RoomSceneDeco54 = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-6.png" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BALANCED-OAK-ROOM-SCENE-1200x1200-1.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BLASS-GRAY-ROOM-SCENE-jpg-2048x2048.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-10.png" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BRUT-OAK-ROOM-SCENE-jpg-2048x2048.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/19-CAPPUCCINO-OAK-D54-M.jpg" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/CERISE-ROOM-SCENE-copia-jpg-2048x2048.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-3.png" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/COFFEE-CREAM-ROOM-SCENE-jpg-2048x2048.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-6.png" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/CREME-BRULEE-ROOM-SCENE-jpg-2048x2048.webp" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/LIGHT-DECO-8.png" />
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-CREME-ROOM-SCENE-jpg-2048x2048.webp" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SLATE-ROOM-SCENE-jpg-2048x2048.webp" />
                 </SwiperSlide>
               </Swiper>
             </motion.div>

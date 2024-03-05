@@ -20,8 +20,8 @@ function PhotoBankSidebar() {
             <div className="sidebar-container">
               <h2>Photo Bank</h2>
               <Link to="/photo-bank/deco-54">Deco54</Link>
-              <Link>Spirit XL</Link>
-              <Link>Keys</Link>
+              <Link to="/photo-bank/spirit-xl">Spirit XL</Link>
+              <Link to="/photo-bank/keys">Keys</Link>
               <Link>Project</Link>
               <Link>Hydrowood</Link>
               <Link>Quick48+</Link>
