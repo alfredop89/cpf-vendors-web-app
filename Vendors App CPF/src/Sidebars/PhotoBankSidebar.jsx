@@ -25,9 +25,9 @@ function PhotoBankSidebar() {
               <Link to="/photo-bank/project">Project</Link>
               <Link to="/photo-bank/hydrowood">Hydrowood</Link>
               <Link to ="/photo-bank/quick48">Quick48+</Link>
-              <Link>Decotile</Link>
-              <Link>Evolve</Link>
-              <Link>Supreme</Link>
+              <Link to="/photo-bank/decotile">Decotile</Link>
+              <Link to="/photo-bank/Evolve">Evolve</Link>
+              <Link to="/photo-bank/supreme">Supreme</Link>
             </div>
             <div className="close-sidebar" onClick={() => setIsOpen(false)}>
               <i className="fa-solid fa-chevron-left"></i>

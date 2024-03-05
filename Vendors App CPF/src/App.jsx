@@ -12,6 +12,9 @@ import PhotoBankkeys from './PhotoBanks/PhotoBankkeys'
 import PhotoBankProject from './PhotoBanks/PhotoBankProject'
 import PhotoBankHydrowood from './PhotoBanks/PhotoBankHydrowood'
 import PhotoBankQuick48 from './PhotoBanks/PhotoBankQuick48'
+import PhotoBankDecotile from './PhotoBanks/PhotoBankDecotile'
+import PhotoBankEvolve from './PhotoBanks/PhotoBankEvolve'
+import PhotoBankSupreme from './PhotoBanks/PhotoBankSupreme'
 
 function App() {
 
@@ -31,6 +34,9 @@ function App() {
       <Route path='/photo-bank/project' element={<PhotoBankProject />} />
       <Route path='/photo-bank/hydrowood' element={<PhotoBankHydrowood />} />
       <Route path='/photo-bank/quick48' element={<PhotoBankQuick48 />} />
+      <Route path='/photo-bank/decotile' element={<PhotoBankDecotile />} />
+      <Route path='/photo-bank/evolve' element={<PhotoBankEvolve />} />
+      <Route path='/photo-bank/supreme' element={<PhotoBankSupreme />} />
     </Routes>
   </BrowserRouter>
   )
