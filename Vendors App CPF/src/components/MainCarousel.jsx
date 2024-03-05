@@ -1,72 +1,60 @@
-import React, { useRef, useState } from "react";
+import React, { useCallback } from "react";
 import { Link } from "react-router-dom";
+import useEmblaCarousel from "embla-carousel-react";
 import { motion } from "framer-motion";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import "../scss/Carousel.scss";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-cards";
-import "../scss/MainCarousel.scss";
+const EmblaCarousel = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel();
 
-// import required modules
-import { EffectCoverflow } from "swiper/modules";
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
 
-export default function App() {
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
   return (
-    <>
-      <motion.div
-        className="main-carousel-container"
-        initial={{ y: 500, opcacity: 0 }}
-        whileInView={{ y: 0, opcacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <Swiper
-        className = "MySwiper"
-          effect={"coverflow"}
-          grabCursor={false}
-          modules={[EffectCoverflow]}
-          loop={false}
-          slidesPerView={3}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: false,
-          }}
-          breakpoints={{
-            940: {
-              slidesPerView: 3,
-              slidesPerGroup: 1,
-            },
-            340: {
-              slidesPerView: 1,
-              slidesPerGroup: 1,
-            }
-          }}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <Link to="/photo-bank">
-              <img src="/src/assets/Mockup1.jpg" alt="" />
-              <span>Photo Bank</span>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/technnical-data">
-              <img src="/src/assets/Mockup.jpg" alt="" />
-              <span>Technnical Data</span>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/merch">
-              <img src="/src/assets/D54 - Light Oak 1.jpg" alt="" />
-              <span>Merch</span>
-            </Link>
-          </SwiperSlide>
-        </Swiper>
-      </motion.div>
-    </>
+    <motion.div
+      className="embla"
+      initial={{ y: 200, opcacity: 0 }}
+      whileInView={{ y: 0, opcacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="embla__viewport" ref={emblaRef}>
+        <div className="embla__container">
+
+          <Link to="/technnical-data">
+            <div className="embla__slide">
+              <img src="/src/assets/Mockup.jpg" alt="" style={{height: "300px"}} />
+              <h4>Technnical Data</h4>
+            </div>
+          </Link>
+
+          <Link to="/photo-bank">
+            <div className="embla__slide">
+              <img src="/src/assets/Mockup1.jpg" alt="" style={{height: "300px"}} />
+              <h4>Photo Bank</h4>
+            </div>
+          </Link>
+
+          <Link to="/merch">
+            <div className="embla__slide">
+              <img src="/src/assets/D54 - Light Oak 1.jpg" alt="" style={{height: "300px"}} />
+              <h4>Merch</h4>
+            </div>
+          </Link>
+
+        </div>
+      </div>
+      <button className="embla__prev" onClick={scrollPrev}>
+        <i className="fa-solid fa-arrow-left"></i>
+      </button>
+      <button className="embla__next" onClick={scrollNext}>
+        <i className="fa-solid fa-arrow-right"></i>
+      </button>
+    </motion.div>
   );
-}
+};
+export default EmblaCarousel;

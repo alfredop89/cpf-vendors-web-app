@@ -23,52 +23,50 @@ const EmblaCarousel = () => {
     >
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          <Link>
+          <Link to="/photo-bank/deco-54">
             <div className="embla__slide">
               <img src="src/assets/DECO54.png" alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/photo-bank/decotile">
             <div className="embla__slide">
               <img src="src/assets/DECOTILE-1.png" alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/photo-bank/hydrowood">
             <div className="embla__slide">
               <img src="src/assets/HYDROWOOD-1.png" alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/photo-bank/keys">
             <div className="embla__slide">
               <img src="src/assets/KEYS.png" alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/photo-bank/project">
             <div className="embla__slide">
               <img src="src/assets/PROJECT.png" alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/photo-bank/quick48">
             <div className="embla__slide">
               <img src="src/assets/QUICK48-1.png" alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/photo-bank/spirit-xl">
             <div className="embla__slide">
               <img src="src/assets/SPIRIT-XL-jpg.webp" alt="" />
             </div>
           </Link>
         </div>
       </div>
-
-      <div className="buttons">
         <button className="embla__prev" onClick={scrollPrev}>
           <i className="fa-solid fa-arrow-left"></i>
         </button>
         <button className="embla__next" onClick={scrollNext}>
           <i className="fa-solid fa-arrow-right"></i>
         </button>
-      </div>
+
     </motion.div>
   );
 };
