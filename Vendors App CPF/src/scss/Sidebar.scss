@@ -1,5 +1,6 @@
 .sidebar{
-    position: absolute;
+    position: fixed;
+    top: 0;
     bottom: 0;
     left: 0;
     height: 100%;
@@ -49,7 +50,7 @@
 
 }
 .open-sidebar{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     margin: 20px;

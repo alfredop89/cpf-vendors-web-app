@@ -5,7 +5,7 @@ import Layout from './Layout'
 import TechnnicalData from './Pages/TechnnicalData'
 import Merch from './Pages/Merch'
 import PhotoBank from './Pages/PhotoBank'
-import PhotoBankDeco54 from './Pages/PhotoBankDeco54'
+import PhotoBankDeco54 from './PhotoBanks/PhotoBankDeco54'
 
 function App() {
 
