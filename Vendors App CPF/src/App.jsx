@@ -18,6 +18,7 @@ function App() {
       <Route path='/merch' element={<Merch />}/>
 
       //PHOTO BANKS
+      
       <Route path='/photo-bank/deco-54' element={<PhotoBankDeco54 />} />
     </Routes>
   </BrowserRouter>
