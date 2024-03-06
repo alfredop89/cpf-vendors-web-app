@@ -42,6 +42,7 @@ const RoomSceneDeco54 = () => {
       >
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container" style={{ cursor: "zoom-in" }}>
+            
             <div className="embla__slide">
               <img
                 src="/src/assets/Room Scenes/Deco54/Light-Deco-Room-scene-1-1200x1200-1.webp"

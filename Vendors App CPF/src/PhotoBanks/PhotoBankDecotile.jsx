@@ -9,7 +9,7 @@ function PhotoBankDeco54() {
     <>
       <Header />
       <PhotoBankSidebar />
-      <div className="photobank-container">
+      <div className="photobank-container" style={{paddingBottom:"120px"}}>
         <h2>Room Scenes - Decotile</h2>
         <DecotileCarousel />
       </div>

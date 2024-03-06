@@ -10,7 +10,7 @@ function PhotoBankDeco54() {
     <>
       <Header />
       <PhotoBankSidebar />
-      <div className="photobank-container">
+      <div className="photobank-container" style={{paddingBottom:"120px"}}>
         <h2>Room Scenes - Deco54</h2>
         <Deco54Carousel />
         <h2>Installation</h2>
