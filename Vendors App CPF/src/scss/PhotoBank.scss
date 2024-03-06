@@ -5,7 +5,20 @@
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    background-image: url("https://cpffloors.com/wp-content/uploads/2022/04/MOKANA-1-1200x1200.webp");
+    background-image: url("https://cpffloors.com/wp-content/uploads/2023/09/SLATE-1200x1200.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    h1{
+        z-index: 30;
+    }
+}
+.photo-bank-container::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
 }
 h2{
     margin-top: 180px;
